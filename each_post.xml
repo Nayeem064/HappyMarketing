@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_pic"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/circle"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/white"
+                />
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/username_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/username_tv"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/date_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:background="@color/white"
+                    />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/delete_btn"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/delete"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:background="@color/white"
+                    android:clickable="false"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <ImageView
+            android:id="@+id/user_post"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginTop="90dp"
+            android:background="@color/white"
+            android:src="@drawable/rec"
+            />
+            <TextView
+                android:id="@+id/caption_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/caption"
+                android:layout_marginTop="320dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:padding="8dp"
+                />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="355dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/like_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/before_liked"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+
+                />
+            <TextView
+                android:id="@+id/like_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/like"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+
+            <ImageView
+                android:id="@+id/comments_post"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/comment2"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

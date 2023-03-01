@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Happy Marketing!!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_email">Enter Your Email</string>
+    <string name="enter_pass">Enter Your Password</string>
+    <string name="already_registered">Already Registerd? Sign In</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_registered">Not yet registered. Sign Up</string>
+    <string name="profile">My Profile</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="username">Enter Your Name</string>
+    <string name="save_btn">Save</string>
+    <string name="add_post">Add Post</string>
+    <string name="enter_caption">Write Caption Here...</string>
+    <string name="username_tv">Username</string>
+    <string name="date">27-02-2021</string>
+    <string name="caption">Caption</string>
+    <string name="like">0 likes</string>
+    <string name="write_comment">Write your comment</string>
+    <string name="add_comment_btn">Add comment</string>
+    <string name="comment_tv">Comment</string>
+</resources>

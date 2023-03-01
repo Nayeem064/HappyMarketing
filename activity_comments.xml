@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CommentsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/comment_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+
+        />
+    <EditText
+        android:id="@+id/comment_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/write_comment"
+        android:textSize="25sp"
+        android:textColorHint="@color/darker_gray"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/add_comment"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="@string/add_comment_btn"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

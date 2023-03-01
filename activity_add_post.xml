@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".AddPostActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/add_post_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_blue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+    <ImageView
+        android:id="@+id/post_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/add"
+        />
+    <ProgressBar
+        android:id="@+id/post_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="182dp"
+        android:layout_marginTop="40dp"
+        />
+    <EditText
+        android:id="@+id/caption_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp"
+        android:hint="@string/enter_caption"
+        android:textSize="25sp"
+        android:textColorHint="@color/darker_gray"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/save_post_btn"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/dark_blue"
+        android:text="@string/add_post"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
