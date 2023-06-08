@@ -1,5 +1,3 @@
-package com.example.sairamkrishna.instagblogapp;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
