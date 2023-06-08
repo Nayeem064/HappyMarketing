@@ -1,5 +1,3 @@
-package com.example.sairamkrishna.instagblogapp;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
