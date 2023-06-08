@@ -1,5 +1,3 @@
-package com.example.sairamkrishna.instagblogapp.Model;
-
 import java.util.Date;
 
 public class Post extends PostId{
