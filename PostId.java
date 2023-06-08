@@ -1,5 +1,3 @@
-package com.example.sairamkrishna.instagblogapp.Model;
-
 import androidx.annotation.NonNull;
 
 import com.google.firebase.firestore.Exclude;
