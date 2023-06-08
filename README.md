@@ -41,3 +41,8 @@ Every user has his own profile where his name and profile picture is saved.
 Sign out:
 After using the app, user can sign out.
 
+Here is a demo video of this application.
+https://github.com/Nayeem064/HappyMarketing/assets/54166591/fd0466ba-8035-41f6-a78c-2574cb3d66f3
+
+
+
