@@ -1,5 +1,3 @@
-package com.example.sairamkrishna.instagblogapp.Model;
-
 public class Comments {
     private String comment,user;
 
